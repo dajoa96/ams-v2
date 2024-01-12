@@ -1,0 +1,5 @@
+<?php
+$translations = [
+    'LOADING' => 'Cargando'
+];
+?>
