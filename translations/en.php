@@ -18,6 +18,19 @@ $translations = [
     'GET_YOUR_CAR_FIXED' => "Get your car Fixed",
     'GET_YOUR_CAR_FIXED_DESCRIPTION' => "Trust us for end-to-end care - from parts and repairs to insurance coordination, rentals, and timely updates throughout the repair process.",
     'VEHICLE_READY' => "Vehicle Ready",
-    'VEHICLE_READY_DESCRIPTION' => "Trust us for all your auto care needs - from repairs and parts to insurance coordination, rentals, and timely updates."
+    'VEHICLE_READY_DESCRIPTION' => "Trust us for all your auto care needs - from repairs and parts to insurance coordination, rentals, and timely updates.",
+    'READY_TO_START' => "Ready to Start?",
+    'READY_TO_START_PARAGRAPH_1' => "Trust us to bring out the best in your vehicle, ensuring it not only meets but exceeds your expectations. Miami Auto Motion",
+    'READY_TO_START_PARAGRAPH_2' => "Where Your Car's Potential Comes to Life!",
+    'CALL_US_NOW' => "Call us Now",
+    'VISIT_US_TODAY' => "Visit us Today!",
+    'OUR_SKILLS' => "Our Skills",
+    'OUR_SKILLS_DESCRIPTION' => "We prioritize you, understanding your vision and surpassing expectations",
+    'OUR_VISION' => "Our Vision",
+    'OUR_VISION_DESCRIPTION' => "Our comprehensive services, from collision repairs to custom wraps, cater to all your automotive needs",
+    'OUR_GOAL' => "Our Goal",
+    'OUR_GOAL_DESCRIPTION' => "Our skilled professionals bring precision and quality to every project",
+    'OUR_PURPOSE' => "Our Purpose",
+    'OUR_PURPOSE_DESCRIPTION' => "Your satisfaction is our unwavering commitment to excellence"
 ];
 ?>
