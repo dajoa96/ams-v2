@@ -15,7 +15,9 @@ include_once "functions/translator.php";
     <?php include_once "partials/spinner.php"; ?>
     <?php include_once "partials/menu.php"; ?>
     <?php include_once "partials/banner.php"; ?>
-
+    <main>
+        <?php include_once "partials/services.php"; ?>
+    </main>
     <?php include_once "partials/footer.php"; ?>
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
