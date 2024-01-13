@@ -4,12 +4,37 @@
   font-family: "Manrope", sans-serif;
 }
 
+body {
+    background-color: #141414;
+}
+
+.border-radius {
+    border-radius: 32px;
+}
+
+.box {
+    padding: 80px;
+}
+
 .back-to-top {
     position: fixed;
     display: none;
     right: 45px;
     bottom: 45px;
     z-index: 99;
+}
+
+/*** Buttons ***/
+
+.btn:not(.btn-banner) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn:not(.btn-sm, .btn-banner) {
+    padding: 24px 48px;
 }
 
 /*** Spinner ***/
@@ -27,6 +52,22 @@
 }
 
 /*** Navbar ***/
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar-nav {
+    gap: 18px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 15px;
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -51,6 +92,31 @@
     transition: .5s;
 }
 
+.navbar .container-xxl {
+    border-bottom: 1px solid #282828;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+@media (max-width: 564.98px) {
+    .navbar .container-xxl {
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .navbar .logo-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar-collapse {
+        background-color: #1e1e1e;
+    }
+}
+
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
@@ -68,4 +134,54 @@
         transition: .5s;
         opacity: 1;
     }
+}
+
+@media (max-width: 1199.98px) {
+    .navbar .container-xxl {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .navbar .navbar-brand {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+
+    .navbar .logo-wrapper .logo {
+        width: 250px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+    }
+}
+
+/* Banner */
+.banner-inner-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5.556vw;
+}
+
+.banner-inner-container h1 {
+    color: #fff;
+    font-family: 'Manrope';
+    font-size: 3.472vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.872vw;
+    margin-bottom: 5.894vw;
+}
+
+.banner-inner-container .banner-buttons {
+    margin-bottom: 2.778vw;
+}
+
+.banner-inner-container .banner-buttons .btn {
+    padding: 1.216vw 3.333vw;
+    border-radius: 1.111vw;
+    font-size: 1.250vw;
+    font-weight: 600;
+    line-height: 1.500vw;
 }
