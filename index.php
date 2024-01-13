@@ -17,6 +17,7 @@ include_once "functions/translator.php";
     <?php include_once "partials/banner.php"; ?>
     <main>
         <?php include_once "partials/services.php"; ?>
+        <?php include_once "partials/about-process.php"; ?>
     </main>
     <?php include_once "partials/footer.php"; ?>
     <!-- Back to Top -->

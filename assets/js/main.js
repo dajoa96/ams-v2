@@ -27,27 +27,18 @@
         }
     });
 
-    // Testimonials carousel
-    // $(".testimonial-carousel").owlCarousel({
-    //     autoplay: true,
-    //     smartSpeed: 1000,
-    //     center: true,
-    //     margin: 25,
-    //     dots: true,
-    //     loop: true,
-    //     nav : false,
-    //     responsive: {
-    //         0:{
-    //             items:1
-    //         },
-    //         768:{
-    //             items:2
-    //         },
-    //         992:{
-    //             items:3
-    //         }
-    //     }
-    // });
+    $("#about-process .owl-carousel").owlCarousel({
+        autoplay: false,
+        smartSpeed: 1000,
+        center: true,
+        margin: 25,
+        dots: true,
+        loop: true,
+        nav : true,
+        navText: [`<button type="button" class="btn btn-owl-nav btn-primary"><i class="fas fa-chevron-left"></i></button>`, `<button type="button" class="btn btn-owl-nav btn-primary"><i class="fas fa-chevron-right"></i></button>`],
+        items: 1,
+        autoHeight: true
+    });
     
 })(jQuery);
 

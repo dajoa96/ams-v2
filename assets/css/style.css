@@ -6,6 +6,7 @@
 
 body {
     background-color: #141414;
+    color: #000000;
 }
 
 .container-xxl {
@@ -20,6 +21,32 @@ body {
 .box {
     padding: 80px;
 }
+
+.box:is(.box-sm) {
+    padding: 40px;
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .border-radius {
+        border-radius: 16px;
+    }
+    .box {
+        padding: 40px;
+    }
+    .box:is(.box-sm) {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .box {
+        padding: 30px;
+    }
+    .box:is(.box-sm) {
+        padding: 10px;
+    }
+}
+
 
 .back-to-top {
     position: fixed;
@@ -39,7 +66,28 @@ body {
 }
 
 .btn:not(.btn-sm, .btn-banner) {
-    padding: 24px 48px;
+    padding: 19px 46px;
+    border-radius: 16px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.btn:is(.btn-owl-nav) {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #FF001D;
+}
+
+@media only screen and (max-width: 1199.98px) {
+    .btn:not(.btn-sm, .btn-banner) {
+        padding: 12px 32px;
+    }
 }
 
 /*** Spinner ***/
@@ -297,5 +345,117 @@ body {
     
     #services .flip-card .flip-card-back-side .flip-card-container {
         padding: 20px;
+    }
+}
+
+/*** About Process ***/
+#about-process h2 {
+    color: #282828;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#about-process .owl-nav {
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    display: flex;
+    gap: 10px;
+}
+
+#about-process .owl-nav .btn:not(:hover, :focus) {
+    opacity: 0.8;
+    background-color: transparent;
+    border-color: transparent;
+    color: #5C5C5C;
+}
+
+#about-process .owl-nav .btn:is(:hover, :focus) {
+    border-color: #FF001D;
+    background-color: #FF001D;
+}
+
+#about-process .process-image-container {
+    height: 225px;
+}
+
+#about-process .process-title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 34px;
+}
+
+#about-process .process-description {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+@media only screen and (min-width: 1200px) {
+    #about-process h2 {
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 62px;
+        margin-bottom: 43px;
+    }
+
+    #about-process .about-description {
+        font-size: 30px;
+        line-height: 33px;
+        margin-bottom: 37px;
+    }
+
+    #about-process .process-title {
+        margin-bottom: 33px;
+    }
+}
+
+@media only screen and (max-width: 1199.98px) {
+    #about-process .owl-nav {
+        right: 40px;
+        top: 40px;
+    }
+
+    #about-process .process-image-container {
+        height: 165px;
+    }
+
+    #about-process .process-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #about-process .process-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    #about-process .owl-nav {
+        right: 30px;
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    #about-process .owl-nav {
+        position: relative;
+        right: unset;
+        left: unset;
+        top: unset;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    #about-process .process-image-container {
+        height: auto;
+        max-width: 100px;
+        margin: 0 auto;
     }
 }
