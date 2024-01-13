@@ -14,6 +14,7 @@ include_once "functions/translator.php";
 <body>
     <?php include_once "partials/spinner.php"; ?>
     <?php include_once "partials/menu.php"; ?>
+    <?php include_once "partials/banner.php"; ?>
 
     <?php include_once "partials/footer.php"; ?>
     <!-- Back to Top -->
