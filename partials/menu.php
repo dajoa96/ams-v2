@@ -15,7 +15,7 @@ global $available_languages;
         </div>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#services" class="btn nav-item nav-link active btn-sm btn-primary"><i class="fas fa-bars"></i>Services</a>
+                <a href="#services" class="btn btn-sm btn-primary text-start justify-content-start"><i class="fas fa-bars"></i>Services</a>
                 <a href="#about" class="nav-item nav-link">About Us</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
                 <a href="#services" class="nav-item nav-link">Schedule a Repair</a>
