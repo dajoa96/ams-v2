@@ -21,6 +21,10 @@ body {
     border-radius: 32px;
 }
 
+.border-radius-md {
+    border-radius: 0 0 32px 32px;
+}
+
 .box {
     padding: 80px;
 }
@@ -39,6 +43,70 @@ body {
     box-shadow: 0px 0px 8px 1px #0000002b;
 }
 
+.appfield{
+    padding-top: 5px;
+}
+
+.appfield .border{
+    display: grid;
+    border: silver 1px solid;
+}
+
+.appfield .border label{
+    padding: 5px 0px 10px 5px;    
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+}
+
+.appfield .border input{ 
+    padding-bottom: 10px;   
+    width: 100%;
+    border: none;
+}
+
+.appfield .border input:focus-visible{     
+    border: none;
+    outline: none;
+}
+.appfield .border input:focus{     
+    border: none;
+    outline: none;
+}
+
+.appfield .border textarea{ 
+    padding-bottom: 10px;   
+    width: 100%;
+    border: none;
+}
+
+.appfield .border textarea:focus-visible{     
+    border: none;
+    outline: none;
+}
+.appfield .border textarea:focus{     
+    border: none;
+    outline: none;
+}
+
+
+.appfield .border select{ 
+    padding-bottom: 10px;   
+    width: 100%;
+    border: none;
+}
+
+.appfield .border select:focus-visible{     
+    border: none;
+    outline: none;
+}
+.appfield .border select:focus{     
+    border: none;
+    outline: none;
+}
+
+
 @media only screen and (max-width: 991.98px) {
     .back-to-top {
         width: 40px;
@@ -53,6 +121,9 @@ body {
 @media only screen and (max-width: 1199.98px) {
     .border-radius {
         border-radius: 16px;
+    }
+    .border-radius-md {
+        border-radius: 0 0 16px 16px;
     }
     .box {
         padding: 40px;
