@@ -13,10 +13,13 @@ include_once "functions/translator.php";
 </head>
 <body>
     <?php include_once "partials/spinner.php"; ?>
-    <?php include_once "partials/menu.php"; ?>
-    <?php include_once "partials/banner.php"; ?>
+    <header>
+        <?php include_once "partials/menu.php"; ?>
+        <?php include_once "partials/banner.php"; ?>
+    </header>
     <main>
         <?php include_once "partials/services.php"; ?>
+        <?php include_once "partials/schedule.php"; ?>
         <?php include_once "partials/about-process.php"; ?>
     </main>
     <?php include_once "partials/footer.php"; ?>
