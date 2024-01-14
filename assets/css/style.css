@@ -288,6 +288,47 @@ body {
     line-height: 1.500vw;
 }
 
+@media only screen and (max-width: 767.98px) {
+    .banner-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+    .banner-inner-container {
+        padding: 40px 20px;
+        position: relative;
+        text-align: center;
+    }
+
+    .banner-inner-container h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .banner-inner-container h1 br {
+        display: none;
+    }
+
+    .banner-inner-container .banner-buttons {
+        margin-bottom: 0;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .banner-inner-container .banner-buttons .btn {
+        padding: 10px 19px;
+        border-radius: 1.111vw;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        flex-grow: 1;
+    }
+}
+
 /*** Flip Cards ***/
 /* This container is needed to position the front and back side */
 .flip-card-inner {
