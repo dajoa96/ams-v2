@@ -30,7 +30,7 @@ global $available_languages;
                             <?php else: ?>
                             <a href="?lang=<?php echo $key; ?>" class="dropdown-item">
                             <?php endif;?>
-                                <img src="assets/img/<?php echo $key; ?>.png" alt="Selected Language" width="30px" height="20px">
+                                <img src="assets/img/<?php echo $key; ?>.png" alt="<?php echo tr(strtoupper($lang_iso)); ?>" width="30px" height="20px"> <?php echo tr(strtoupper($key)); ?>
                             </a>
                         <?php endforeach; ?>
                     </div>
