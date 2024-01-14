@@ -10,16 +10,16 @@ global $services;
             <?php foreach($services as $key => $val): ?>
                 <div class="col-md-6 col-lg-4">
                     <div class="flip-card">
-                        <div class="flip-card-inner border-radius">
+                        <div class="flip-card-inner border-radius schedule" data-key="<?php echo $key ?>">
                             <div class="flip-card-front-side">
                                 <div class="flip-card-container border-radius overflow-hidden <?php echo $val['is_new'] ? 'is-new' : ''; ?>" style="background-image: url('<?php echo $val['image']; ?>');">
                                     <h3 class="flip-card-title text-start"><?php echo $val['title']; ?></h3>
                                     <?php if($val['is_new']): ?>
                                         <div class="flip-card-new">
-                                            <span><?php echo tr('NEW'); ?></span>
+                                            <span>New</span>
                                         </div>
                                     <?php endif; ?>
-                                    <p class="flip-card-price text-start"><?php echo tr('FROM'); ?> <?php echo $val['price']; ?></p>
+                                    <p class="flip-card-price text-start">From <?php echo $val['price']; ?></p>
                                 </div>
                             </div>
                             <div class="flip-card-back-side">
