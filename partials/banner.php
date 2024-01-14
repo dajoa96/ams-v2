@@ -9,8 +9,8 @@
                     Body Shop Services <br>
                 </h1>
                 <div class="banner-buttons">
-                    <a href="#" class="btn btn-primary btn-banner">Our Services</a>
-                    <a href="#" class="btn btn-outline-light btn-banner">Contact Us</a>
+                    <a href="#services" class="btn btn-primary btn-banner">Our Services</a>
+                    <a href="#schedule" class="btn btn-outline-light btn-banner">Contact Us</a>
                 </div>
             </div>
         </div>
