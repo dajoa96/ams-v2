@@ -16,11 +16,7 @@
     
     // Back to top button
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
+        $(this).scrollTop() > 147 ? $('.back-to-top').fadeIn('slow') : $('.back-to-top').fadeOut('slow');
     });
 
     $("#about-process .owl-carousel").owlCarousel({

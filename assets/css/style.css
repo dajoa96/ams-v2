@@ -2,6 +2,7 @@
 :host {
     --primary: #FF001D;
 }
+
 * {
   font-family: "Manrope", sans-serif;
 }
@@ -26,6 +27,27 @@ body {
 
 .box:is(.box-sm) {
     padding: 40px;
+}
+
+.back-to-top {
+    width: 50px;
+    height: 50px;
+    padding: 0px!important;
+    font-size: 20px!important;
+    bottom: 12px!important;
+    border-radius: 10px!important;
+    box-shadow: 0px 0px 8px 1px #0000002b;
+}
+
+@media only screen and (max-width: 991.98px) {
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        border-radius: 7px!important;
+        padding: 0px!important;
+        right: 10px!important;
+        bottom: 10px!important;
+    }
 }
 
 @media only screen and (max-width: 1199.98px) {
