@@ -12,7 +12,7 @@
                             <address><a href="https://maps.app.goo.gl/fJ8VKfvHFzDKfqwQA" target="_blank">9605 NW 79TH AVE UNIT 4-5 hialeah gardens, Fl, 33016</a></address>
                         </div>
                         <div class="contact-buttons">
-                            <div class="row gy-3">
+                            <div class="row g-2 gy-3">
                                 <div class="col-sm-6">
                                     <a href="tel:17869316389" class="btn btn-light"><?php echo tr("CALL_US_NOW"); ?></a>
                                 </div>
