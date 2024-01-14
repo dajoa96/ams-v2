@@ -3,7 +3,7 @@ global $lang_iso;
 global $available_languages;
 ?>
 <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg navbar-dark justify-content-center justify-content-start-sm">
+<nav class="navbar navbar-expand-lg navbar-dark justify-content-center justify-content-start-sm py-0">
     <div class="container-xxl">
         <div class="logo-wrapper">
             <a href="" class="navbar-brand d-flex align-items-center px-4 px-lg-5">

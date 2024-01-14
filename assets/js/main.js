@@ -10,13 +10,9 @@
     spinner();
 
     // Sticky Navbar
-    // $(window).scroll(function () {
-    //     if ($(this).scrollTop() > 300) {
-    //         $('.sticky-top').css('top', '0px');
-    //     } else {
-    //         $('.sticky-top').css('top', '-100px');
-    //     }
-    // });
+    $(window).scroll(function () {
+        $(this).scrollTop() > 147 ? $('.navbar').addClass('navbar-sticky') : $('.navbar').removeClass('navbar-sticky');
+    });
     
     // Back to top button
     $(window).scroll(function () {
