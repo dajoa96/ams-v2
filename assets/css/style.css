@@ -465,6 +465,24 @@ body {
     background-color: #FF001D;
 }
 
+#about-process .btn-facebook:hover,
+#about-process .btn-instagram:hover,
+#about-process .btn-whatsapp:hover {
+    color: white;
+}
+
+#about-process .btn-facebook:hover {
+    background-color: #3b5998!important;
+}
+
+#about-process .btn-instagram:hover {
+    background-color: #833ab4!important;
+}
+
+#about-process .btn-whatsapp:hover {
+    background-color: #00E676!important;
+}
+
 #about-process .process-image-container {
     height: 225px;
 }
