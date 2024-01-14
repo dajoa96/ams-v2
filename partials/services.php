@@ -16,10 +16,10 @@ global $services;
                                     <h3 class="flip-card-title text-start"><?php echo $val['title']; ?></h3>
                                     <?php if($val['is_new']): ?>
                                         <div class="flip-card-new">
-                                            <span>New</span>
+                                            <span><?php echo tr('NEW'); ?></span>
                                         </div>
                                     <?php endif; ?>
-                                    <p class="flip-card-price text-start">From <?php echo $val['price']; ?></p>
+                                    <p class="flip-card-price text-start"><?php echo tr('FROM'); ?> <?php echo $val['price']; ?></p>
                                 </div>
                             </div>
                             <div class="flip-card-back-side">
