@@ -19,8 +19,9 @@ function tr($key, $translate_lang = "") {
     global $lang_iso;
     if (!$key) return "INVALID TRANSLATION KEY";
     if ($translate_lang == "") $translate_lang = $lang_iso;
-    else if (!in_array($translate_lang, $available_languages)) return "INVALID TRANSLATION LANGUAGE '".strtoupper($translate_lang)."'";
+    else if (!in_array($translate_lang, $available_languages)) return "INVALID TRANSLATION LANGUAGE '".strtoupper($translate_lang)."'";    
     include_once "translations/{$translate_lang}.php";
+    global $translations;    
     if (!isset($translations) || !is_array($translations)) return "TRANSLATIONS LOAD ERROR";
     return isset($translations[$key]) ? $translations[$key] : "TRANSLATION KEY '$key' WAS NOT FOUND";
 }
