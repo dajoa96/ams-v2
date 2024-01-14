@@ -186,6 +186,22 @@ body {
     }
 }
 
+/*** Texts ***/
+.section-title {
+    text-align: center;
+    color: #282828;
+}
+
+@media only screen and (min-width: 1200px) {
+    .section-title {
+        text-align: start;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 62px;
+        margin-bottom: 43px;
+    }
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;

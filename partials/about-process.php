@@ -3,7 +3,7 @@
         <div class="owl-carousel owl-theme">
             <div class="item about-us">
                 <div class="border-radius box bg-white">
-                    <h2><?php echo tr("ABOUT_US"); ?></h2>
+                    <h2 class="section-title"><?php echo tr("ABOUT_US"); ?></h2>
                     <p class="about-description"><strong><?php echo tr("ABOUT_US_PARAGRAPH_1"); ?></strong></p>
                     <p class="about-description"><?php echo tr("ABOUT_US_PARAGRAPH_2"); ?></p>
                     <p class="about-description"><?php echo tr("ABOUT_US_PARAGRAPH_3"); ?></p>

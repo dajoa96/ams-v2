@@ -4,7 +4,7 @@
             <div class="row gy-4">
                 <div class="col-lg-6 col-ready">
                     <div class="col-ready-wrapper">
-                        <h2><?php echo tr("READY_TO_START"); ?></h2>
+                        <h2 class="section-title"><?php echo tr("READY_TO_START"); ?></h2>
                         <div class="paragraph">
                             <p><?php echo tr("READY_TO_START_PARAGRAPH_1"); ?></p>
                             <p><?php echo tr("READY_TO_START_PARAGRAPH_2"); ?></p>
