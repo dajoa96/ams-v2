@@ -245,6 +245,19 @@ body {
     }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .4rem;
+        padding-left: .4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        position: relative;
+    }
+}
+
 /* Banner */
 .banner-inner-container {
     position: absolute;
