@@ -1,5 +1,7 @@
 /********** Template CSS **********/
-
+:host {
+    --primary: #FF001D;
+}
 * {
   font-family: "Manrope", sans-serif;
 }
@@ -66,7 +68,8 @@ body {
 }
 
 .btn:not(.btn-sm, .btn-banner) {
-    padding: 19px 46px;
+    /* padding: 19px 46px; */
+    padding: 19px;
     border-radius: 16px;
     font-size: 18px;
     line-height: 22px;
@@ -457,5 +460,39 @@ body {
         height: auto;
         max-width: 100px;
         margin: 0 auto;
+    }
+}
+
+#footer *:not(.btn) {
+    color: #fff;
+}
+
+#footer h2 {
+    font-style: normal;
+    font-weight: 600;
+}
+
+#footer .ready-item-title {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 22px
+}
+
+@media only screen and (min-width: 1200px) {
+    #footer h2 {
+        font-size: 56px;
+        line-height: 62px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #footer h2,
+    #footer p,
+    #footer address {
+        margin-bottom: 22px;
+    }
+
+    #footer .col-ready-wrapper {
+        max-width: 415px;
     }
 }
