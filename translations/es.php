@@ -9,12 +9,12 @@ $translations = [
     'SERVICES' => 'Servicios',
     'LANGUAGE' => 'Lenguaje',
     'CONTACT' => 'Contacto',
-    'SCHEDULE_A_REPAIR' => 'Agendar una Reparaci&oacute;n',
+    'SCHEDULE_A_REPAIR' => 'Agendar una Reparaci&oacite;n',
     'EN' => 'Ingl&eacute;s',
     'ES' => 'Espa&ntilde;ol',
-    'BANNER_TITLE' => "Su Principal Destino Para <br>Mecánicos Expertos y <br>Talleres de Carrocería<br>",
+    'BANNER_TITLE' => "Su Principal Destino para <br>Expertos en Mecánica y <br>Talleres de carrocería<br>",
     'OUR_SERVICES' => "Nuestros Servicios",
-    'CONTACT_US' => "Contactanos",
+    'CONTACT_US' => "Contactaos",
     'NEW' => "Nuevo",
     'FROM' => "Desde",
     'ABOUT_US' => 'Sobre Nosotros',
@@ -48,7 +48,9 @@ $translations = [
     'CONTACT_NUMBER' => 'Teléfono',
     'CAR_MODEL' => 'Modelo del Auto',
     'SERVICES' => 'Servicios',
-    'GET_APPOIMENT' => 'Solicitar Cita'
+    'GET_APPOIMENT' => 'Solicitar Cita',
+    'DATE' => 'Fecha',
+    'MESSAGE' => 'Mensaje'
 ];
 
 $services = [
@@ -95,5 +97,4 @@ $services = [
         'description' => "Nuestros expertos detallistas se dedican a mejorar el aspecto de su coche, tanto por dentro como por fuera, mediante meticulosos procesos de limpieza, pulido y protección."
     ]
 ];
-
 ?>

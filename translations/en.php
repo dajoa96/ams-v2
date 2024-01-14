@@ -48,7 +48,9 @@ $translations = [
     'CONTACT_NUMBER' => 'Contact Phone',
     'CAR_MODEL' => 'Car Model',
     'SERVICES' => 'Services',
-    'GET_APPOIMENT' => 'Get Appoiment'
+    'GET_APPOIMENT' => 'Get Appoiment',
+    'DATE' => 'Date',
+    'MESSAGE' => 'Message'    
 ];
 
 $services = [
