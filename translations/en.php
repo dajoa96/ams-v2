@@ -9,6 +9,7 @@ $translations = [
     'SERVICES' => 'Services',
     'LANGUAGE' => 'Language',
     'CONTACT' => 'Contact',
+    'SCHEDULE_A_REPAIR' => 'Schedule a Repair',
     'EN' => 'English',
     'ES' => 'Spanish',
     'BANNER_TITLE' => "Your Premier Destination for<br>Expert Mechanic and<br>Body Shop Services<br>",

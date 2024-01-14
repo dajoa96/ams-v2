@@ -9,6 +9,7 @@ $translations = [
     'SERVICES' => 'Servicios',
     'LANGUAGE' => 'Lenguaje',
     'CONTACT' => 'Contacto',
+    'SCHEDULE_A_REPAIR' => 'Agendar una Reparaci&oacute;n',
     'EN' => 'Ingl&eacute;s',
     'ES' => 'Espa&ntilde;ol',
     'BANNER_TITLE' => "Su Principal Destino Para<br>Mecánicos Expertos y<br>Talleres de Carrocería<br>",
