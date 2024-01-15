@@ -54,7 +54,9 @@ $translations = [
     'HOUR_LABOR_DAYS' => 'Lunes a Sábado',
     'CLOSE' => 'Cerrar',
     'NEVER_SHOW' => 'Nunca Mostrar',
-    'SCHEDULE' => 'Agendar'
+    'SCHEDULE' => 'Agendar',
+    "EXITO_CORREO" => "Su mensaje ha sido enviado correctamente, nosotros lo contactaremos al teléfono o correo indicado lo antes posible",
+    "ERROR_CORREO" => "Error al enviar el correo"
 ];
 
 $services = [

@@ -54,7 +54,10 @@ $translations = [
     'HOUR_LABOR_DAYS' => 'Monday to Saturday',
     'CLOSE' => 'Close',
     'NEVER_SHOW' => 'Never Show',
-    'SCHEDULE' => 'Schedule'
+    'SCHEDULE' => 'Schedule',
+    "TOKEN_NOT_VALID",
+    "EXITO_CORREO" => "Your message has been sent successfully, we'll contact you soon directly to your email and/or phone",
+    "ERROR_CORREO" => "Error while sending email"
 ];
 
 $services = [

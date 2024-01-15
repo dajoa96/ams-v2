@@ -12,25 +12,25 @@ global $services;
                     <div class="col-sm-6 col-lg-4 appfield">
                         <div class="border">
                             <label for="NOMBRE"><?php echo tr("NAME"); ?></label>
-                            <input type="text" class="form-control" id="NOMBRE" name="NOMBRE" value="" placeholder="<?php echo tr("NAME"); ?>" required>
+                            <input type="text" class="form-control" id="NOMBRE" name="NOMBRE" maxlength="200" value="" placeholder="<?php echo tr("NAME"); ?>" required>
                         </div>
                     </div> 
                     <div class="col-sm-6 col-lg-4 appfield">
                         <div class="border">
                             <label for="EMAIL"><?php echo tr("EMAIL"); ?></label>
-                            <input type="email" class="form-control" name="EMAIL" id="EMAIL" value="" placeholder="<?php echo tr("EMAIL"); ?>" required>
+                            <input type="email" class="form-control" name="EMAIL" id="EMAIL" maxlength="200" value="" placeholder="<?php echo tr("EMAIL"); ?>" required>
                         </div>
                     </div> 
                     <div class="col-sm-6 col-lg-4 appfield">
                         <div class="border">
                             <label for="PHONE"><?php echo tr("CONTACT_NUMBER"); ?></label>
-                            <input type="text" class="form-control" name="PHONE" id="PHONE" value="" placeholder="<?php echo tr("CONTACT_NUMBER"); ?>" required>
+                            <input type="tel" class="form-control" name="PHONE" id="PHONE" maxlength="200" value="" placeholder="<?php echo tr("CONTACT_NUMBER"); ?>" required>
                         </div>
                     </div> 
                     <div class="col-sm-6 col-lg-4 appfield">
                         <div class="border">
                             <label for="CARMODEL"><?php echo tr("CAR_MODEL"); ?></label>
-                            <input type="text" class="form-control" name="CARMODEL" id="CARMODEL" value="" placeholder="<?php echo tr("CAR_MODEL"); ?>" required>
+                            <input type="text" class="form-control" name="CARMODEL" id="CARMODEL" maxlength="200" value="" placeholder="<?php echo tr("CAR_MODEL"); ?>" required>
                         </div>   
                     </div> 
                     <div class="col-sm-6 col-lg-4 appfield">
@@ -46,14 +46,16 @@ global $services;
                     <div class="col-sm-6 col-lg-4 appfield">
                         <div class="border">
                             <label for="FECHA"><?php echo tr("DATE"); ?></label>
-                            <input type="date" name="FECHA" class="form-control" id="FECHA" value="" placeholder="<?php echo tr("DATE"); ?>" required>
+                            <input type="date" name="FECHA" class="form-control" min ="<?php echo date("Y-m-d"); ?>" id="FECHA" value="" placeholder="<?php echo tr("DATE"); ?>" required>
                         </div>
                     </div>
                     <div class="col-12" id="mensajes-schedule"></div>
                 </div>
+                <div id ="mensajeapp"></div>
                 <div class="d-flex justify-content-center justify-content-md-end">
-                    <input type="hidden" id="TOKEN" value="<?php global $newguid; echo $newguid; ?>">
-                    <button id="btAppoiment" class="btn btn-primary float-right"><?php echo tr("GET_APPOIMENT"); ?></button>
+                    <input type="hidden" id="TOKEN" value="<?php global $newguid; echo $newguid; ?>">  
+                    <input type="hidden" id="actionapp" value="appoinment">                                      
+                    <button type="submit" id="btAppoiment" class="btn btn-primary float-right"><?php echo tr("GET_APPOIMENT"); ?></button>
                 </div>                 
             </form>                        
         </div>         

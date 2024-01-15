@@ -2,7 +2,7 @@
     <div class="container-xxl">
         <div class="box border-radius bg-white">                        
             <h2 class="section-title"><?php echo tr("CONTACT_US"); ?></h2>                    
-            <form class="row">
+            <form class="row" id = "frContact">
                 <div class="col-md-6">
                     <div class="d-flex flex-column h-100">
                         <div class="text-primary">
@@ -39,7 +39,7 @@
                             <div class="appfield">
                                 <div class="border">
                                     <label for="CONTACT_NOMBRE"><?php echo tr("NAME"); ?></label>
-                                    <input type="text" class="form-control" id="CONTACT_NOMBRE" name="NOMBRE" value="" placeholder="<?php echo tr("NAME"); ?>" required>
+                                    <input type="text" class="form-control" id="CONTACT_NOMBRE" maxlength="200" name="NOMBRE" value="" placeholder="<?php echo tr("NAME"); ?>" required>
                                 </div>
                             </div> 
                         </div>
@@ -47,7 +47,7 @@
                             <div class="appfield">
                                 <div class="border">
                                     <label for="CONTACT_EMAIL"><?php echo tr("EMAIL"); ?></label>
-                                    <input type="mail" class="form-control" id="CONTACT_EMAIL" name="EMAIL" value="" value="" placeholder="<?php echo tr("EMAIL"); ?>" required>
+                                    <input type="mail" class="form-control" id="CONTACT_EMAIL" maxlength="200" name="EMAIL" value="" value="" placeholder="<?php echo tr("EMAIL"); ?>" required>
                                 </div>
                             </div>
                         </div>
@@ -55,14 +55,16 @@
                             <div class="appfield">
                                 <div class="border">
                                     <label for="CONTACT_MESSAGE"><?php echo tr("MESSAGE"); ?></label>                            
-                                    <textarea name="MENSAJE" class="form-control" id="CONTACT_MESSAGE" value="" value="" placeholder="<?php echo tr("MESSAGE"); ?>" required rows="8"></textarea>
+                                    <textarea name="MENSAJE" class="form-control" id="CONTACT_MESSAGE" maxlength="2000" value="" value="" placeholder="<?php echo tr("MESSAGE"); ?>" required rows="8"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12" id="mensajes-contact"></div>
                         <div class="col-12">
                             <div class="d-flex justify-content-center justify-content-md-end">
-                               <button class="btn btn-primary float-right"><?php echo tr("CONTACT_US"); ?></button>
+                                <input type="hidden" id="TOKEN" value="<?php global $newguid; echo $newguid; ?>">  
+                                <input type="hidden" id="actioncontact" value="contact"> 
+                                <button type="submit" class="btn btn-primary float-right"><?php echo tr("CONTACT_US"); ?></button>
                             </div>
                         </div>
                     </div>
