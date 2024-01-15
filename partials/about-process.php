@@ -8,8 +8,8 @@
                     <p class="about-description"><?php echo tr("ABOUT_US_PARAGRAPH_2"); ?></p>
                     <p class="about-description"><?php echo tr("ABOUT_US_PARAGRAPH_3"); ?></p>
                     <div class="box box-sm border-radius bg-light">
-                        <div class="row gy-3">
-                            <div class="col-12 col-lg-3">
+                        <div class="row justify-content-center gy-3">
+                            <div class="col-12 ">
                                 <p class="text-center m-0"><?php //echo tr("ABOUT_US_FIND_CHANNEL"); ?> Find the channel of your preference</p>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-3">
@@ -22,9 +22,14 @@
                                     <i class="fab fa-instagram"></i> <span class="brand">Instagram</span>
                                 </a>
                             </div>
-                            <div class="col-sm-12 col-md-4 col-lg-3">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
                                 <a class="btn btn-light bg-white text-center w-100 btn-whatsapp" href="#">
                                     <i class="fab fa-whatsapp"></i> <span class="brand">WhatsApp</span>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <a class="btn btn-light bg-white text-center w-100 btn-tiktok" href="#">
+                                    <i class="fab fa-tiktok"></i> <span class="brand">TikTok</span>
                                 </a>
                             </div>
                         </div>

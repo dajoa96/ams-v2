@@ -554,7 +554,8 @@ body {
 
 #about-process .btn-facebook:hover,
 #about-process .btn-instagram:hover,
-#about-process .btn-whatsapp:hover {
+#about-process .btn-whatsapp:hover,
+#about-process .btn-tiktok:hover {
     color: white;
 }
 
@@ -568,6 +569,10 @@ body {
 
 #about-process .btn-whatsapp:hover {
     background-color: #00E676!important;
+}
+
+#about-process .btn-tiktok:hover {
+    background-color: #000000!important;
 }
 
 #about-process .process-image-container {
