@@ -90,7 +90,6 @@ body {
     outline: none;
 }
 
-
 .appfield .border select{ 
     padding-bottom: 10px;   
     width: 100%;
@@ -105,7 +104,6 @@ body {
     border: none;
     outline: none;
 }
-
 
 @media only screen and (max-width: 991.98px) {
     .back-to-top {
@@ -161,7 +159,6 @@ body {
 }
 
 .btn:not(.btn-sm, .btn-banner) {
-    /* padding: 19px 46px; */
     padding: 19px;
     border-radius: 16px;
     font-size: 18px;
