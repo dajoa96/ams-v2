@@ -660,6 +660,12 @@ body {
     }
 }
 
+/*** Contact ***/
+#contact .map iframe {
+    min-height: 300px;
+}
+
+/*** Footer ***/
 #footer *:not(.btn) {
     color: #fff;
 }

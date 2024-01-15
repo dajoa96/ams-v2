@@ -29,13 +29,12 @@
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.2617348408307!2d-80.3247268!3d25.860861699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bb008d995f51%3A0x33ed9c710acd106e!2s9605%20NW%2079th%20Ave%204%205%2C%20Hialeah%20Gardens%2C%20FL%2033016%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sve!4v1705259085291!5m2!1ses-419!2sve"
                                 class="w-100 h-100"
-                                style="min-height: 300px;"
                                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="row">
+                    <div class="row g-3">
                         <div class="col-12">
                             <div class="appfield">
                                 <div class="border">
