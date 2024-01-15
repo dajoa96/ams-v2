@@ -16,12 +16,12 @@
                             </p>
                             <p>
                                 <i class="far fa-clock"></i>&nbsp;
-                                <label>Monday - Friday 9.00AM - 5.00PM</label>
+                                <label><?php echo tr("HOUR_LABOR_DAYS") ?> 9.00AM - 5.00PM</label>
                             </p>
                             <p>
                                 <address>
                                     <i class="fas fa-map-marker-alt"></i>&nbsp;
-                                    <a href="https://maps.app.goo.gl/fJ8VKfvHFzDKfqwQA" target="_blank">9605 NW 79TH AVE UNIT 4-5 hialeah gardens, Fl, 33016</a>
+                                    <a href="https://maps.app.goo.gl/fJ8VKfvHFzDKfqwQA" target="_blank">9605 NW 79TH AVE UNIT 4-5 Hialeah Gardens, Fl, 33016</a>
                                 </address>
                             </p>
                         </div>
