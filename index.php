@@ -41,6 +41,7 @@ include_once "functions/translator.php";
     </main>
     <?php include_once "partials/footer.php"; ?>
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <?php include_once "partials/whatsapp.php"; ?>
     <?php include_once "partials/requerido.php"; ?>
 </body>
 
