@@ -29,8 +29,8 @@ $translations = [
     'VEHICLE_READY' => "Vehicle Ready",
     'VEHICLE_READY_DESCRIPTION' => "Trust us for all your auto care needs - from repairs and parts to insurance coordination, rentals, and timely updates.",
     'READY_TO_START' => "Ready to Start?",
-    'READY_TO_START_PARAGRAPH_1' => "Trust us to bring out the best in your vehicle, ensuring it not only meets but exceeds your expectations. Miami Auto Motion",
-    'READY_TO_START_PARAGRAPH_2' => "Where Your Car's Potential Comes to Life!",
+    'READY_TO_START_PARAGRAPH_1' => "Trust us to bring out the best in your vehicle, ensuring it not only meets but exceeds your expectations.",
+    'READY_TO_START_PARAGRAPH_2' => "Miami Auto Motion, where Your Car's Potential Comes to Life!",
     'CALL_US_NOW' => "Call us Now",
     'VISIT_US_TODAY' => "Visit us Today!",
     'OUR_SKILLS' => "Our Skills",
@@ -50,7 +50,8 @@ $translations = [
     'SERVICES' => 'Services',
     'GET_APPOIMENT' => 'Get Appoiment',
     'DATE' => 'Date',
-    'MESSAGE' => 'Message'    
+    'MESSAGE' => 'Message',
+    'HOUR_LABOR_DAYS' => 'Monday to Saturday'
 ];
 
 $services = [
