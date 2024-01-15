@@ -488,6 +488,14 @@ body {
 
 #services .flip-card .flip-card-back-side .flip-card-container {
     padding: 40px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    height: 100%;
+}
+
+#services .flip-card .flip-card-back-side .flip-card-description {
+    max-height: 100%;
+    overflow: auto;
 }
 
 #services .flip-card .flip-card-inner {

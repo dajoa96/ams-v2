@@ -23,8 +23,8 @@ global $services;
                                 </div>
                             </div>
                             <div class="flip-card-back-side">
-                                <div class="flip-card-container" style="display: grid; grid-template-rows: 1fr auto; height: 100%;">
-                                    <p class="flip-card-description" style="max-height: 100%; overflow: auto;">
+                                <div class="flip-card-container">
+                                    <p class="flip-card-description">
                                         <?php echo $val['description']; ?>
                                     </p>
                                     <button class="btn btn-sm btn-xs btn-outline-dark mx-auto mt-1 schedule" data-key="<?php echo $key ?>"><?php echo tr("SCHEDULE"); ?></button>
