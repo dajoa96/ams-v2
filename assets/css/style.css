@@ -522,11 +522,8 @@ body {
     text-transform: uppercase;
 }
 
-@media only screen and (max-width: 991.98px) {
-    #services .flip-card .flip-card-front-side .flip-card-container {
-        padding: 20px;
-    }
-    
+@media only screen and (max-width: 1199.98px) {
+    #services .flip-card .flip-card-front-side .flip-card-container,
     #services .flip-card .flip-card-back-side .flip-card-container {
         padding: 20px;
     }

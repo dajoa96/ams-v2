@@ -53,7 +53,8 @@ $translations = [
     'MESSAGE' => 'Mensaje',
     'HOUR_LABOR_DAYS' => 'Lunes a Sábado',
     'CLOSE' => 'Cerrar',
-    'NEVER_SHOW' => 'Nunca Mostrar'
+    'NEVER_SHOW' => 'Nunca Mostrar',
+    'SCHEDULE' => 'Agendar'
 ];
 
 $services = [

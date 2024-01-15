@@ -10,7 +10,7 @@ global $services;
             <?php foreach($services as $key => $val): ?>
                 <div class="col-md-6 col-lg-4">
                     <div class="flip-card">
-                        <div class="flip-card-inner border-radius schedule" data-key="<?php echo $key ?>">
+                        <div class="flip-card-inner border-radius">
                             <div class="flip-card-front-side">
                                 <div class="flip-card-container border-radius overflow-hidden <?php echo $val['is_new'] ? 'is-new' : ''; ?>" style="background-image: url('<?php echo $val['image']; ?>');">
                                     <h3 class="flip-card-title text-start"><?php echo $val['title']; ?></h3>
@@ -23,8 +23,11 @@ global $services;
                                 </div>
                             </div>
                             <div class="flip-card-back-side">
-                                <div class="flip-card-container">
-                                    <p class="flip-card-description"><?php echo $val['description']; ?></p>
+                                <div class="flip-card-container" style="display: grid; grid-template-rows: 1fr auto; height: 100%;">
+                                    <p class="flip-card-description" style="max-height: 100%; overflow: auto;">
+                                        <?php echo $val['description']; ?>
+                                    </p>
+                                    <button class="btn btn-sm btn-xs btn-outline-dark mx-auto mt-1 schedule" data-key="<?php echo $key ?>"><?php echo tr("SCHEDULE"); ?></button>
                                 </div>
                             </div>
                         </div>
