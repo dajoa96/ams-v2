@@ -46,7 +46,7 @@ function enviarcorreo($cuerpo, $destinatario, $asunto, $cco){
            return ("");} 
         
     } catch (Exception $e) {
-        return('<div class = "mensajeerror">El mensaje no se ha podido enviar, error: '. $mail->ErrorInfo .'</div>');
+        return($mail->ErrorInfo);
     }
 }
 
