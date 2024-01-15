@@ -576,6 +576,10 @@ body {
     height: 225px;
 }
 
+#about-process .process-image {
+    width: max-content;
+}
+
 #about-process .process-title {
     color: #000;
     font-size: 24px;

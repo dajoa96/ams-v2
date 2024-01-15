@@ -43,7 +43,7 @@
                         <div class="col-sm-6 col-md-4">
                             <div class="process-item">
                                 <div class="process-image-container d-flex justify-content-center align-items-center">
-                                    <img src="assets/img/our-process/schedule-appointment.png" alt="<?php echo tr("SCEDULE_APPOINTMENT"); ?>" class="img-fluid process-image" style="width: max-content!important">
+                                    <img src="assets/img/our-process/schedule-appointment.png" alt="<?php echo tr("SCEDULE_APPOINTMENT"); ?>" class="img-fluid process-image">
                                 </div>
                                 <h3 class="process-title text-center"><?php echo tr("SCEDULE_APPOINTMENT"); ?></h3>
                                 <p class="process-description text-center"><?php echo tr("SCEDULE_APPOINTMENT_DESCRIPTION"); ?></p>
@@ -52,7 +52,7 @@
                         <div class="col-sm-6 col-md-4">
                             <div class="process-item">
                                 <div class="process-image-container d-flex justify-content-center align-items-center">
-                                    <img src="assets/img/our-process/get-your-car-fixed.png" alt="<?php echo tr("GET_YOUR_CAR_FIXED"); ?>" class="img-fluid process-image" style="width: max-content!important">
+                                    <img src="assets/img/our-process/get-your-car-fixed.png" alt="<?php echo tr("GET_YOUR_CAR_FIXED"); ?>" class="img-fluid process-image">
                                 </div>
                                 <h3 class="process-title text-center"><?php echo tr("GET_YOUR_CAR_FIXED"); ?></h3>
                                 <p class="process-description text-center"><?php echo tr("GET_YOUR_CAR_FIXED_DESCRIPTION"); ?></p>
@@ -61,7 +61,7 @@
                         <div class="col-sm-6 col-md-4">
                             <div class="process-item">
                                 <div class="process-image-container d-flex justify-content-center align-items-center">
-                                    <img src="assets/img/our-process/vehicle-ready.png" alt="<?php echo tr("VEHICLE_READY"); ?>" class="img-fluid process-image" style="width: max-content!important">
+                                    <img src="assets/img/our-process/vehicle-ready.png" alt="<?php echo tr("VEHICLE_READY"); ?>" class="img-fluid process-image">
                                 </div>
                                 <h3 class="process-title text-center"><?php echo tr("VEHICLE_READY"); ?></h3>
                                 <p class="process-description text-center"><?php echo tr("VEHICLE_READY_DESCRIPTION"); ?></p>
