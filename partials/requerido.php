@@ -9,3 +9,6 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/forms.js"></script>
 <script src="assets/js/se-habla-espanol.js"></script>
+<script src="assets/js/misc.js"></script>
+<!-- Librerai de recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js?render=6Le17VEpAAAAAKmNah6R0vkIk1tfnx_8nnC5qnW_"></script>
