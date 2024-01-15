@@ -8,8 +8,8 @@
                         <div class="paragraph">
                             <p><?php echo tr("READY_TO_START_PARAGRAPH_1"); ?></p>
                             <p><?php echo tr("READY_TO_START_PARAGRAPH_2"); ?></p>
-                            <p><a href="tel:17869316389">(786) 931-6389</a> - <a href="mailto:automotions305@gmail.com">automotions305@gmail.com</a></p>
-                            <address><a href="https://maps.app.goo.gl/fJ8VKfvHFzDKfqwQA" target="_blank">9605 NW 79TH AVE UNIT 4-5 hialeah gardens, Fl, 33016</a></address>
+                            <p><a href="tel:17869316389">(786) 931-6389</a> - <a href="mailto:info@automotionmiami.com">info@automotionmiami.com</a></p>
+                            <address><a href="https://maps.app.goo.gl/fJ8VKfvHFzDKfqwQA" target="_blank">9605 NW 79TH AVE UNIT 4-5 Hialeah Gardens, Fl, 33016</a></address>
                         </div>
                         <div class="contact-buttons">
                             <div class="row g-2 gy-3">
