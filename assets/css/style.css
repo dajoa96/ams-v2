@@ -213,6 +213,11 @@ body {
     opacity: 1;
 }
 
+#spinner .spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
 /*** Navbar ***/
 .navbar {
     position: absolute;
