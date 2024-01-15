@@ -51,7 +51,9 @@ $translations = [
     'GET_APPOIMENT' => 'Solicitar Cita',
     'DATE' => 'Fecha',
     'MESSAGE' => 'Mensaje',
-    'HOUR_LABOR_DAYS' => 'Lunes a Sábado'
+    'HOUR_LABOR_DAYS' => 'Lunes a Sábado',
+    'CLOSE' => 'Cerrar',
+    'NEVER_SHOW' => 'Nunca Mostrar'
 ];
 
 $services = [

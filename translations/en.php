@@ -51,7 +51,9 @@ $translations = [
     'GET_APPOIMENT' => 'Get Appoiment',
     'DATE' => 'Date',
     'MESSAGE' => 'Message',
-    'HOUR_LABOR_DAYS' => 'Monday to Saturday'
+    'HOUR_LABOR_DAYS' => 'Monday to Saturday',
+    'CLOSE' => 'Close',
+    'NEVER_SHOW' => 'Never Show'
 ];
 
 $services = [

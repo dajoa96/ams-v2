@@ -21,6 +21,10 @@ body {
     border-radius: 32px;
 }
 
+.border-radius-0 {
+    border-radius: 0;
+}
+
 .border-radius-md {
     border-radius: 0 0 32px 32px;
 }
@@ -704,4 +708,34 @@ body {
     #footer .col-ready-wrapper {
         max-width: 415px;
     }
+}
+
+/*** Se habla español widget ***/
+.se-habla-espanol {
+    background-color: white;
+    position: absolute;
+    width: max-content;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, calc(100% + 10px));
+    box-shadow: 0px 0px 8px 1px #00000054;
+    transition: .6s transform;
+    display: none;
+}
+
+.se-habla-espanol:is(.hidden) {
+    transform: translate(-50%, calc(100% + 20px));
+}
+
+.se-habla-espanol::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    transform: translate(-50%, -10px);
 }

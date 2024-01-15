@@ -39,5 +39,6 @@ global $available_languages;
             </div>
         </div>
     </div>
+    <?php include_once "partials/se-habla-espanol.php"; ?>
 </nav>
 <!-- Navbar End -->
