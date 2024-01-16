@@ -19,7 +19,7 @@ global $available_languages;
                 <a href="#about-process" class="nav-item nav-link"><?php echo tr("ABOUT_US"); ?></a>
                 <a href="#contact" class="nav-item nav-link"><?php echo tr("CONTACT"); ?></a>
                 <a href="#schedule" class="nav-item nav-link schedule" data-key="-1"><?php echo tr("SCHEDULE_A_REPAIR"); ?></a>
-                <a href="tel:17868177712" class="nav-item nav-link">+1 (786) 817-7712</a>
+                <a href="tel:17869316389" class="nav-item nav-link">(786) 931-6389</a>
                 <?php if (is_array($available_languages) && count($available_languages)): ?>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><img src="assets/img/<?php echo $lang_iso; ?>.png" alt="Selected Language" width="30px" height="20px"></a>
