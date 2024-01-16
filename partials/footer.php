@@ -65,6 +65,6 @@
                 </div>
             </div>
         </div>
-        <p class="text-center mb-3 mt-4"><?php echo tr("DEVELOPED_BY"); ?> <strong><a href="https://paresoftware.com" target="_blank">PareSoftware</a></strong> &copy; 2024</p>
+        <p class="text-center pb-5 pb-md-0 mb-5 mb-md-3 mt-4"><?php echo tr("DEVELOPED_BY"); ?> <strong><a href="https://paresoftware.com" target="_blank">PareSoftware</a></strong> &copy; 2024</p>
     </div>
 </footer>
