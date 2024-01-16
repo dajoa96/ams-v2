@@ -16,11 +16,11 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
 <!-- Libraries Stylesheet -->
-<link href="assets/lib/animate/animate.min.css" rel="stylesheet">
-<link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="assets/lib/animate/animate.min.css?v=<?php echo APP_VERSION; ?>" rel="stylesheet">
+<link href="assets/lib/owlcarousel/assets/owl.carousel.min.css?v=<?php echo APP_VERSION; ?>" rel="stylesheet">
 
 <!-- Customized Bootstrap Stylesheet -->
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap.min.css?v=<?php echo APP_VERSION; ?>" rel="stylesheet">
 
 <!-- Template Stylesheet -->
-<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/style.css?v=<?php echo APP_VERSION; ?>" rel="stylesheet">
