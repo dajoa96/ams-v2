@@ -13,22 +13,22 @@
                                 <p class="text-center m-0"><?php echo tr("ABOUT_US_FIND_CHANNEL"); ?></p>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <a class="btn btn-light bg-white text-center w-100 btn-facebook" href="#">
+                                <a class="btn btn-light bg-white text-center w-100 btn-facebook" href="#" target="_blank">
                                     <i class="fab fa-facebook"></i> <span class="brand">Facebook</span>
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <a class="btn btn-light bg-white text-center w-100 btn-instagram" href="#">
+                                <a class="btn btn-light bg-white text-center w-100 btn-instagram" href="https://www.instagram.com/automotionmiami/" target="_blank">
                                     <i class="fab fa-instagram"></i> <span class="brand">Instagram</span>
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <a class="btn btn-light bg-white text-center w-100 btn-whatsapp" href="#">
+                                <a class="btn btn-light bg-white text-center w-100 btn-whatsapp" href="https://wa.me/17868177712" target="_blank">
                                     <i class="fab fa-whatsapp"></i> <span class="brand">WhatsApp</span>
                                 </a>
                             </div>
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <a class="btn btn-light bg-white text-center w-100 btn-tiktok" href="#">
+                                <a class="btn btn-light bg-white text-center w-100 btn-tiktok" href="https://www.tiktok.com/@automotionmiami" target="_blank">
                                     <i class="fab fa-tiktok"></i> <span class="brand">TikTok</span>
                                 </a>
                             </div>
