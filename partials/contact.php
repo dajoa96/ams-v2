@@ -8,7 +8,7 @@
                         <div class="text-primary">
                             <p>
                                 <i class="fas fa-phone-square"></i>&nbsp;
-                                <a href="tel:17869316389">(786) 931-6389</a>                        
+                                <a href="tel:17868177712">+1 (786) 817-7712</a>                        
                             </p>
                             <p>
                                 <i class="fas fa-envelope"></i>&nbsp;

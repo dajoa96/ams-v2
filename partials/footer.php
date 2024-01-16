@@ -8,13 +8,13 @@
                         <div class="paragraph">
                             <p><?php echo tr("READY_TO_START_PARAGRAPH_1"); ?></p>
                             <p><?php echo tr("READY_TO_START_PARAGRAPH_2"); ?></p>
-                            <p><a href="tel:17869316389">(786) 931-6389</a> - <a href="mailto:info@automotionmiami.com">info@automotionmiami.com</a></p>
+                            <p><a href="tel:17868177712">+1 (786) 817-7712</a> - <a href="mailto:info@automotionmiami.com">info@automotionmiami.com</a></p>
                             <address><a href="https://maps.app.goo.gl/fJ8VKfvHFzDKfqwQA" target="_blank">9605 NW 79TH AVE UNIT 4-5 Hialeah Gardens, Fl, 33016</a></address>
                         </div>
                         <div class="contact-buttons">
                             <div class="row g-2 gy-3">
                                 <div class="col-sm-6">
-                                    <a href="tel:17869316389" class="btn btn-light"><?php echo tr("CALL_US_NOW"); ?></a>
+                                    <a href="tel:17868177712" class="btn btn-light"><?php echo tr("CALL_US_NOW"); ?></a>
                                 </div>
                                 <div class="col-sm-6">
                                     <a href="https://maps.app.goo.gl/fJ8VKfvHFzDKfqwQA" class="btn btn-outline-light"><?php echo tr("VISIT_US_TODAY"); ?></a>
